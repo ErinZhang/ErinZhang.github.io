@@ -7,8 +7,15 @@
     <style type="text/css">
     #title{
       color: white;
-      background: black;
+      background: #b48484;
       text-align: center;
+      padding-top: 9px;
+    }
+    #wrapper{      
+      background-image: url("background.jpg");
+      
+    }
+    #displayArea{
     }
     </style>
     <!--[if lt IE 7]>
@@ -53,19 +60,17 @@
     </script>
 </head>
 <body>
+  <div id="wrapper">
 <div id="header">
-    <nav>
-
-    </nav>
-</div>
-
-<div class="wrapper">
-    <section>
-        <div id="title">
+       <div id="title">
             <h1>润之的作品集</h1>
             <hr>
-        </div>
-    </section>
+        </div>    
+</div>
+
+<div id="displayArea">
+    
+    
     <div class="highslide-gallery" style="width: 600px; margin: auto">
         <h2>PDAPI OMT</h2>
         <a class='highslide' href='works\PDAPI OMT\download_1.jpg'
@@ -367,6 +372,7 @@
             src='works\陆家嘴健康社区平台\EastZone_news_thumb.png'
             alt='EastZone_news'/></a>
     </div>
+</div>
 </div>
 </body>
 </html>
