@@ -3,6 +3,7 @@ from PIL import Image
 import os
 import math
 
+# In Windows, the path of generated link contains '\', which cannot be recognized by Firefox
 area = 120 * 120
 # area = 240 * 240
 rootDir2 = r"C:\Users\xujiah\Documents\GitHub\ErinZhang.github.io\works"
